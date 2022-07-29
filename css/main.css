@@ -2428,6 +2428,13 @@ header .logo a {
 	color: #FF0077;
 }
 
+#contactContainer {
+	display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 
 /**
  * loader animation - (_layout.scss)
