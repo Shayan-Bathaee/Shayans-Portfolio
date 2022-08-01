@@ -854,6 +854,23 @@ a:hover {
   }
 }
 
+.skill-mf input {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  width: 50%;
+  height: 4rem;
+  background-color: rgb(0, 120, 255);
+  border-radius: 4px;
+  border-width: 0px;
+  color: white;
+}
+
+.skill-mf input:hover {
+  opacity: 80%;
+}
+
 .skill-mf span {
   color: #4e4e4e;
 }
