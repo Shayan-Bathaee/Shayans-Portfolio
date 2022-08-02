@@ -1454,6 +1454,10 @@ a:hover {
   font-size: 1.3rem;
 }
 
+.card-title {
+  padding-top: 1.7rem;
+}
+
 /*------/ Sidebar /------*/
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
