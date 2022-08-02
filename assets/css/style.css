@@ -1436,6 +1436,16 @@ a:hover {
   margin-left: 40px;
 }
 
+#education-box {
+  display: table;
+  margin: 0 auto;
+  width : 60%;
+}
+
+#school-name {
+  font-size: 1.3rem;
+}
+
 /*------/ Sidebar /------*/
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
