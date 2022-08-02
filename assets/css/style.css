@@ -10,9 +10,9 @@
 --------------------------------------------------------------*/
 /* defining colors */
 :root {
-  /*--main-color: var(--main-color);
-  --dark-color: var(--dark-color);
-  --hover-color: var(--hover-color);*/
+  /* --main-color: #0078ff;
+  --dark-color: #0062d3;
+  --hover-color: #298eff; */
   --main-color: #009933;
   --dark-color: #00802b;
   --hover-color: #00b33c;
@@ -109,7 +109,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: var(--main-color);
+  /* background-color: var(--main-color); */
 }
 
 .overlay-mf {
