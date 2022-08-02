@@ -108,9 +108,9 @@ a:hover {
   }
 }
 
-.overlay-mf {
-  /* background-color: var(--main-color); */
-}
+/* .overlay-mf {
+  background-color: var(--main-color);
+} */
 
 .overlay-mf {
   position: absolute;
@@ -1457,7 +1457,8 @@ a:hover {
 #education-box {
   display: table;
   margin: 0 auto;
-  width : 60%;
+  width: 60%;
+  min-width: 30rem;
 }
 
 #school-name {
@@ -1466,6 +1467,10 @@ a:hover {
 
 .card-title {
   padding-top: 1.7rem;
+}
+
+#majorminor {
+  padding-top: 2.5rem;
 }
 
 /*------/ Sidebar /------*/
