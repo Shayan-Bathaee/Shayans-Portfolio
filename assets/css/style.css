@@ -844,9 +844,19 @@ a:hover {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#profile_pic {
+#profile-pic-container {
+  position: relative;
+}
+
+#profile-pic {
   border-radius: 50%;
-  height: 10rem;
+  height: 20rem;
+  width: 20rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
 }
 
 .about-mf .box-shadow-full {
@@ -901,6 +911,10 @@ a:hover {
 .skill-mf .progress .progress-bar {
   height: 0.7rem;
   background-color: var(--main-color);
+}
+
+#about-me-box {
+  width: 50%;
 }
 
 /*--------------------------------------------------------------
@@ -1468,6 +1482,11 @@ a:hover {
 
 .card-title {
   padding-top: 1.7rem;
+}
+
+#schoolimg {
+  border-top-left-radius: 0.375rem;
+  border-top-right-radius: 0.375rem;
 }
 
 #majorminor {
