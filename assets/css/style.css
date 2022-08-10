@@ -850,8 +850,8 @@ a:hover {
 
 #profile-pic {
   border-radius: 50%;
-  height: 20rem;
-  width: 20rem;
+  width: 70%;
+  max-width: 300px;
   position: absolute;
   top: 50%;
   left: 50%;
