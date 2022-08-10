@@ -847,6 +847,7 @@ a:hover {
 #profile-pic-container {
   position: relative;
   padding-bottom: 16rem;
+  margin-left: -1rem;
 }
 
 #profile-pic {
