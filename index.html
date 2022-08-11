@@ -46,7 +46,11 @@
           <li><a class="nav-link scrollto" href="#about">About & Resume</a></li>
           <li class="dropdown"><a href="#work"><span>Projects</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#work">C</a></li>
+              <li class="dropdown"><a href="#work"><span>C</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="https://github.com/Shayan-Bathaee/multithreaded-http-server">Multithreaded Server</a></li>
+                </ul>
+              </li>
               <li><a href="#work">C++</a></li>
               <li class="dropdown"><a href="#work"><span>Python</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
@@ -112,7 +116,7 @@
                       For more infromation about my education, work experience, and skills, check out my resume!
                     </p>
                     <div class="skill-mf">
-                      <a href="ShayanBathaee_Resume_OnSite81.pdf"><button>View My Resume</button></a>
+                      <a href="ShayanBathaee_Resume_OnSite81.pdf" target="_blank" rel="noopener noreferrer"><button>View My Resume</button></a>
                     </div>
                     <!-- <p class="lead">
                       
@@ -137,7 +141,7 @@
                 Projects
               </h3>
               <p class="subtitle-a">
-                A collection of personal projects I've done outside of school. Click the images to see more!
+                Click the images to see more!
               </p>
               <div class="line-mf"></div>
             </div>
@@ -146,34 +150,29 @@
         <div class="row">
           <div class="col-md-4">
             <div class="work-box">
-              <a href="https://github.com/Shayan-Bathaee/img2ascii">
+              <a href="https://github.com/Shayan-Bathaee/multithreaded-http-server">
                 <div class="work-img">
-                  <img src="assets/images_shayan/img2ascii_thumbnail.png" alt="" class="img-fluid">
+                  <img id="server-img" src="assets/images_shayan/server_thumbnail.png" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
                 <div class="row">
                   <div>
-                    <h2 class="w-title">img2ascii</h2>
-                    <p>Convert any image into ASCII art</p>
+                    <h2 class="w-title">Multithreaded Server</h2>
+                    <p>Multithreaded HTTP server capable of GET, PUT, and APPEND requests</p>
                     <div class="w-more">
-                      <span class="w-ctegory">Python</span> / <span class="w-date">July 2021</span>
+                      <span class="w-ctegory">C</span> / <span class="w-date">May 2022</span>
                     </div>
                   </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
-                    </div>
-                  </div> -->
                 </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
-            <div class="work-box">
+            <div class="work-box" id="linear-regression">
               <a href="https://github.com/Shayan-Bathaee/ML-Linear-Regression">
                 <div class="work-img">
-                  <img src="assets/images_shayan/animation.gif" alt="" class="img-fluid">
+                  <img id="linear-regression-img" src="assets/images_shayan/animation.gif" alt="" class="img-fluid">
                 </div>
               </a>
               <div class="work-content">
@@ -185,11 +184,26 @@
                       <span class="w-ctegory">Python, Matplotlib</span> / <span class="w-date">January 2022</span>
                     </div>
                   </div>
-                  <!-- <div class="col-sm-4">
-                    <div class="w-like">
-                      <a href="portfolio-details.html"> <span class="bi bi-plus-circle"></span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="work-box">
+              <a href="https://github.com/Shayan-Bathaee/img2ascii">
+                <div class="work-img">
+                  <img id="img2ascii-img" src="assets/images_shayan/img2ascii_thumbnail.png" alt="" class="img-fluid">
+                </div>
+              </a>
+              <div class="work-content">
+                <div class="row">
+                  <div>
+                    <h2 class="w-title">img2ascii</h2>
+                    <p>Convert any image into ASCII art</p>
+                    <div class="w-more">
+                      <span class="w-ctegory">Python</span> / <span class="w-date">July 2021</span>
                     </div>
-                  </div> -->
+                  </div>
                 </div>
               </div>
             </div>
