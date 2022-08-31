@@ -226,6 +226,12 @@ a:hover {
   padding: 1.5rem 0;
 }
 
+.social-img {
+  padding-left: 0.65rem;
+  padding-top: 0.65rem;
+  display: flex;
+}
+
 .socials ul li {
   display: inline-block;
 }
@@ -238,6 +244,8 @@ a:hover {
   line-height: 1.6;
   margin: 0 15px 0 0;
   box-shadow: 0 0 0 3px var(--main-color);
+  background-color: white;
+  opacity: 90%;
   transition: all 500ms ease;
 }
 
